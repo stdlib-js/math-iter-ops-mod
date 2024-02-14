@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterMod from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-mod@esm/index.mjs';
+import iterMod from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-mod@v0.2.0-esm/index.mjs';
 ```
 
 #### iterMod( iter0, ...iterator )
@@ -136,7 +136,7 @@ var bool = it.next().done;
 <script type="module">
 
 import iterDiscreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@esm/index.mjs';
-import iterMod from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-mod@esm/index.mjs';
+import iterMod from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-ops-mod@v0.2.0-esm/index.mjs';
 
 // Create an iterator which generates pseudorandom integers:
 var rand = iterDiscreteUniform( 0, 100, {
